@@ -1,5 +1,7 @@
 ## _STREAMS_
 
+- La documentación se puede ver en esta [Pagina](https://www.youtube.com/watch?v=U5oOdNG2XQY)
+
 ## Dada la clase personas:
 
 ```shell
@@ -41,7 +43,7 @@ public class Product {
 }
 ```
 
-Data la clase main() con los objetos de las clases person y product creados
+## Dada la clase main() con los objetos de las clases person y product creados
 
 ```shell
 package javaPractice.stream.entendiendoStreams;
