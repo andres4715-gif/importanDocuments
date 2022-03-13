@@ -114,7 +114,7 @@ public class App {
 
 ```
 
-## Metodo Filter (param : function)
+## Metodo Filter (param : predicate)
 
 ```shell
 
