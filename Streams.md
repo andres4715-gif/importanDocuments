@@ -151,6 +151,8 @@ Person(id=5, name=Camilo, birthday=1980-05-22)
 
 - Este permite modificar los elementos que se esten trabajando en el stream.
 
+- Lo que se espera que retorne el mapa es un parametro o un valor producto del resultado de la funcion que se haya hecho.
+
 ```shell
 
 Puede aplcar para estos casos pero son muchos mas:
