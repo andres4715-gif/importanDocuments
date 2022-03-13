@@ -134,4 +134,12 @@ Ejemplo:
     public static void printList(List<?> list) {
         list.forEach(System.out::println);
     }
+
+- Con el filtro aplicado, se obtiene una nueva lista dondde se cumple la condición.
+
+- En el output se puede ver esto como resultado:
+
+Person(id=3, name=Estevan, birthday=1960-02-11)
+Person(id=4, name=Liliana, birthday=1979-04-03)
+Person(id=5, name=Camilo, birthday=1980-05-22)
 ```
