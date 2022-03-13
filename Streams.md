@@ -156,7 +156,8 @@ Puede aplcar para estos casos pero son muchos mas:
 2. Aplicar alguna concatenación de variables.
 3. Hacer alguna logica como (Multiplicación, Suma etc...).
 
-Para este caso tenemos una lista y de esta se quire obtener una lista con las marcas de los relojes que tengan un precio mayor a 300.
+Para este caso tenemos una lista y de esta se quire obtener una lista
+con las marcas de los relojes que tengan un precio mayor a 300.
 
 Nota: Recordar que el .collect() se debe hacer sobre la ultima linea antes de agregar el .collect().
 
