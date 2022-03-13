@@ -230,6 +230,4 @@ Esto retorna una respuesta por consola de una lista con los nombre de los reloge
 
 Poco
 HTC
-
-
 ```
