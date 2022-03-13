@@ -116,6 +116,9 @@ public class App {
 
 ## Metodo Filter (param : predicate)
 
+- El predicate lo que significa es que retorna un booleano (true or false)
+  para poder siguir avanzando y obtener la lista que se quiere obtener.
+
 ```shell
 
 Ejemplo:
