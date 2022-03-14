@@ -219,7 +219,8 @@ a traves de un comparator que lo veremos a continuación:
         list.forEach(System.out::println);
     }
 
-- En caso de querer hacerlo de forma descendente solo seria cambiarle el orden al Comparator y el codigo quedaria de la siguiente forma:
+- En caso de querer hacerlo de forma descendente solo seria cambiarle el orden al Comparator y el codigo
+quedaria de la siguiente forma:
 
         // Comparator<persons>
 
