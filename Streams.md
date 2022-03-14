@@ -156,7 +156,9 @@ Teniendo en cuenta que se tiene la lista de personas y se quiere tener dicha lis
 
 ```shell
 
-Lo primero que se debe tener en cuenta es que vamos a requerir una Lista<String> ya que el dato name es de tipo <String> y vamos a trabajar con la lista (persons) a dicha colección se el aplica el metodo .stream(), luego el metodo .map() para obtener los nombres, luego el metodo .sorted() ya en esta parte se tiene la lista de nombres organizada de la forma que queremos.
+Lo primero que se debe tener en cuenta es que vamos a requerir una Lista<String>
+ya que el dato name es de tipo <String> y vamos a trabajar con la lista (persons) a dicha colección se el aplica el metodo .stream(),
+luego el metodo .map() para obtener los nombres, luego el metodo .sorted() ya en esta parte se tiene la lista de nombres organizada de la forma que queremos.
 
     List<String> filteredList3 = persons
             .stream()
@@ -186,7 +188,7 @@ ______________________________________
 Hacer lo mismo pero con un objeto completo:
 
 Ahora la necesidad es ordenar no solo los nombres si no que ahora se requiere ordenar por nombre pero la lista completa,
- osea el objeto completo
+osea el objeto completo
 
 Para poder hacer esto es necesario decirle al metodo .sorted()
 por parametro como se quiere organizar el objeto. esto se logra
