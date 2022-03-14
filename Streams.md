@@ -260,7 +260,7 @@ Person(id=5, name=Camilo, birthday=1980-05-22)
 Person(id=1, name=Andres, birthday=2003-01-21)
 ```
 
-## Match (param : predicate)
+## Metodo Match (param : predicate)
 
 - Es una operación de flujo intermedio y se puede utilizar de la siguiente forma:
 
@@ -333,7 +333,7 @@ tiene nunguna coincidencia y esto hace que el output sea true
         System.out.println(rpta3);
 ```
 
-## Skip
+## Metodo Skip
 
 - Permite omitir algún datos o datos para iniciar despues de un lugar en la lista determinado.
 
@@ -366,7 +366,7 @@ Person(id=4, name=Liliana, birthday=1979-04-03)
 Person(id=5, name=Camilo, birthday=1980-05-22)
 ```
 
-## Limit
+## Metodo Limit
 
 - Permite tomar de la lista de datos los que se requieran iniciando desde el dato (0) en la lista.
 
