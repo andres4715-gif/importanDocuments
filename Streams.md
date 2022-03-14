@@ -1,5 +1,11 @@
 ## _STREAMS_
 
+- Lo primero que se debe saber de los .streams es que utilizan lambdas para su funcionamiento y a partir de ahi se puede lograr trabajar con colecciones de datos aplicando diferentes metodos como
+
+.filter()
+.sorted()
+.map() ...
+
 - La documentación se puede ver en esta [Pagina](https://www.youtube.com/watch?v=U5oOdNG2XQY)
 
 ## Dada la clase personas:
