@@ -147,6 +147,41 @@ Person(id=4, name=Liliana, birthday=1979-04-03)
 Person(id=5, name=Camilo, birthday=1980-05-22)
 ```
 
+## Metodo Sorted:
+
+- Teniendo en cuenta la Clase personas, la clase Productos y la Clase App
+  donde se tiene las colecciones (Listas). se puede optar por organizar los resultados para que estos queden organizados de la forma que se requiera.
+
+Teniendo en cuenta que se tiene la lista de personas y se quiere tener dicha lista organizada de forma ascendente, esto se puede obtener con la programación funcional de la siguiente forma :
+
+```shell
+
+Lo primero que se debe tener en cuenta es que vamos a requerir una Lista<String> ya que el dato name es de tipo <String> y vamos a trabajar con la lista (persons) a dicha colección se el aplica el metodo .stream(), luego el metodo .map() para obtener los nombres, luego el metodo .sorted() ya en esta parte se tiene la lista de nombres organizada de la forma que queremos.
+
+    List<String> filteredList3 = persons
+            .stream()
+            .map(p -> p.getName())
+            .sorted()
+            .collect(Collectors.toList());
+        App.printList(filteredList3);
+
+- La lista de nombres real es de esta forma:
+
+Andres
+Jorge
+Estevan
+Liliana
+Camilo
+
+- Pero despues de aplicar el metodo .sorted() el resultado por consola que se obtiene es:
+
+Andres
+Camilo
+Estevan
+Jorge
+Liliana
+```
+
 ## Metodo MAP (param : function)
 
 - Este permite modificar los elementos que se esten trabajando en el stream.
