@@ -185,9 +185,12 @@ ______________________________________
 
 Hacer lo mismo pero con un objeto completo:
 
-Ahora la necesidad es ordenar no solo los nombres si no que ahora se requiere ordenar por nombre pero la lista completa, osea el objeto completo
+Ahora la necesidad es ordenar no solo los nombres si no que ahora se requiere ordenar por nombre pero la lista completa,
+ osea el objeto completo
 
-Para poder hacer esto es necesario decirle al metodo .sorted() por parametro como se quiere organizar el objeto. esto se logra a traves de un comparator que lo veremos a continuación:
+Para poder hacer esto es necesario decirle al metodo .sorted()
+por parametro como se quiere organizar el objeto. esto se logra
+a traves de un comparator que lo veremos a continuación:
 
         // sorted(param : comparator)
         // Comparator<persons>
