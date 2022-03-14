@@ -125,7 +125,7 @@ public class App {
 ## Metodo Filter (param : predicate)
 
 - El predicate lo que significa es que retorna un booleano (true or false)
-  para poder siguir avanzando y obtener la lista que se quiere obtener.
+  para poder seguir avanzando y obtener la lista que se quiere obtener. claro esta que no es necesario que sea un booleano, solo es un paso que nos permite seguir avanzando a obtener el resultado que queremos para continuar con el flufo que queremos.
 
 ```shell
 
@@ -253,6 +253,14 @@ Person(id=3, name=Estevan, birthday=1960-02-11)
 Person(id=5, name=Camilo, birthday=1980-05-22)
 Person(id=1, name=Andres, birthday=2003-01-21)
 ```
+
+## Match (param : predicate)
+
+- Es una operación de flujo intermedio y se puede utilizar de la siguiente forma:
+
+* anyMatch
+* allMatch
+* noneMatch
 
 ## Metodo MAP (param : function)
 
