@@ -198,7 +198,9 @@ Liliana
 
 ```shell
 
-- Hacer lo mismo pero con un objeto completo:
+Ejemplo 2:
+
+Hacer lo mismo pero con un objeto completo:
 
 - Ahora la necesidad es ordenar no solo los nombres si no que ahora se requiere ordenar por nombre pero
 la lista completa, osea el objeto completo
