@@ -218,6 +218,23 @@ a traves de un comparator que lo veremos a continuación:
         public static void printList(List<?> list) {
         list.forEach(System.out::println);
     }
+
+- En caso de querer hacerlo de forma descendente solo seria cambiarle el orden al Comparator y el codigo quedaria de la siguiente forma:
+
+        // Comparator<persons>
+
+        Comparator<Person> byNameDesc = (Person o1, Person o2) -> o2.getName().compareTo(o1.getName());
+        List<Person> filteredList4 = persons
+                .stream()
+                .sorted(byNameDesc)
+                .collect(Collectors.toList());
+        App.printList(filteredList4);
+    }
+
+        public static void printList(List<?> list) {
+            list.forEach(System.out::println);
+        }
+}
 ```
 
 ## Metodo MAP (param : function)
