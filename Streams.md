@@ -180,6 +180,29 @@ Camilo
 Estevan
 Jorge
 Liliana
+
+______________________________________
+
+Hacer lo mismo pero con un objeto completo:
+
+Ahora la necesidad es ordenar no solo los nombres si no que ahora se requiere ordenar por nombre pero la lista completa, osea el objeto completo
+
+Para poder hacer esto es necesario decirle al metodo .sorted() por parametro como se quiere organizar el objeto. esto se logra a traves de un comparator que lo veremos a continuación:
+
+        // sorted(param : comparator)
+        // Comparator<persons>
+
+        Comparator<Person> byNameAcs = (Person o1, Person o2) -> o1.getName().compareTo(o2.getName());
+        List<Person> filteredList4 = persons
+                .stream()
+                .sorted(byNameAcs)
+                .collect(Collectors.toList());
+        App.printList(filteredList4);
+    }
+
+        public static void printList(List<?> list) {
+        list.forEach(System.out::println);
+    }
 ```
 
 ## Metodo MAP (param : function)
