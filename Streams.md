@@ -333,6 +333,69 @@ tiene nunguna coincidencia y esto hace que el output sea true
         System.out.println(rpta3);
 ```
 
+## Skip
+
+- Permite omitir algún datos o datos para iniciar despues de un lugar en la lista determinado.
+
+```shell
+
+Ejemplo 1:
+
+* Si requiero omitir los primeros 2 datos de la lista y crear una nueva lista de personas.
+- En este caso la nueva lista debe retornar los datos de la lista omitiendo los primeros
+dos datos de esta
+
+- En el codigo seria:
+
+        List<Person> filteredList4 =  persons
+                .stream()
+                .skip(2)
+                .collect(Collectors.toList());
+        App.printList(filteredList4);
+
+        }
+
+            public static void printList(List<?> list) {
+                list.forEach(System.out::println);
+            }
+
+- El output seria la lista de personas omitiendo los dos primeros datos de la lista
+
+Person(id=3, name=Estevan, birthday=1960-02-11)
+Person(id=4, name=Liliana, birthday=1979-04-03)
+Person(id=5, name=Camilo, birthday=1980-05-22)
+```
+
+## Limit
+
+- Permite tomar de la lista de datos los que se requieran iniciando desde el dato (0) en la lista.
+
+```shell
+
+Ejemplo 1:
+
+* La lista de personas tiene 5 Personas dentro de ella y se requiere solo tener dos datos de la lista.
+
+- En el codigo seria:
+
+        List<Person> filteredList5 =  persons
+                .stream()
+                .limit(2)
+                .collect(Collectors.toList());
+        App.printList(filteredList5);
+    }
+
+            public static void printList(List<?> list) {
+                list.forEach(System.out::println);
+            }
+
+- El output seria la lista de personas omitiendo los dos primeros datos de la lista
+
+Person(id=1, name=Andres, birthday=2003-01-21)
+Person(id=2, name=Jorge, birthday=2000-03-23)
+
+```
+
 ## Metodo MAP (param : function)
 
 - Este permite modificar los elementos que se esten trabajando en el stream.
