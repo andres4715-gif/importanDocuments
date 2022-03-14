@@ -218,6 +218,15 @@ a traves de un comparator que lo veremos a continuación:
         list.forEach(System.out::println);
     }
 
+El output de salida seria de la siguiente forma:
+
+Person(id=1, name=Andres, birthday=2003-01-21)
+Person(id=5, name=Camilo, birthday=1980-05-22)
+Person(id=3, name=Estevan, birthday=1960-02-11)
+Person(id=2, name=Jorge, birthday=2000-03-23)
+Person(id=4, name=Liliana, birthday=1979-04-03)
+
+
 - En caso de querer hacerlo de forma descendente solo seria cambiarle el orden al Comparator y el codigo
 quedaria de la siguiente forma:
 
@@ -235,6 +244,14 @@ quedaria de la siguiente forma:
             list.forEach(System.out::println);
         }
 }
+
+El output de salida seria de la siguiente forma:
+
+Person(id=4, name=Liliana, birthday=1979-04-03)
+Person(id=2, name=Jorge, birthday=2000-03-23)
+Person(id=3, name=Estevan, birthday=1960-02-11)
+Person(id=5, name=Camilo, birthday=1980-05-22)
+Person(id=1, name=Andres, birthday=2003-01-21)
 ```
 
 ## Metodo MAP (param : function)
