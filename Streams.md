@@ -124,7 +124,7 @@ public class App {
 
 ## Metodo Filter (param : predicate)
 
-- El predicate lo que significa es que retorna un booleano (true or false)
+- Predicate: Lo que significa es que retorna un booleano (true or false)
   para poder seguir avanzando y obtener la lista que se quiere obtener. claro esta que no es necesario que sea un booleano, solo es un paso que nos permite seguir avanzando a obtener el resultado que queremos para continuar con el flufo que queremos.
 
 ```shell
@@ -261,6 +261,71 @@ Person(id=1, name=Andres, birthday=2003-01-21)
 * anyMatch
 * allMatch
 * noneMatch
+
+- La operación principal del Match es retornar un booleano (True or False) para poder tomar decisiones con este resultado.
+
+```shell
+Ejemplo 1: anyMatch
+
+En este lo que se quiere validar es si dada la lista de personas que tenemos previamente
+tenemos por lo menos un dato que inicia con la letra (L) si en la lista se tiene un dato
+que inicia con la letra (L) nos va a retornar un true y en caso contrario nos retorna false
+
+- Se puede ver en el ejemplo que no vamos a retornar una lista, solo vamos a retornar un dato boolean.
+
+- Para este especifico, el anyMatch no recorre toda la lista. el simplemente busca que se tenga por lo
+menos un dato que cumpla la condición y si encuentra por lo menos un match con eso nos da el true
+
+
+        boolean rpta1 = persons
+                .stream()
+                .anyMatch(x -> x.getName().startsWith("L"));
+        System.out.println(rpta1);
+
+* El output despues de ejecutar va a ser true or false dependiendo si se cumple o no la condición
+y con este resultado vamos a podemos seguír avanzando en el programa.
+
+Para este ejemplo la salida fue true
+
+```
+
+```shell
+Ejemplo 2: allMatch
+
+- Para el allMatch todos los datos deben coincidir, en este caso tenemos una lista de nombres y esto
+implica que al no coinidir la primera letra en todas las iteraciones el va dar como salida un false
+
+
+        boolean rpta2 = persons
+                .stream()
+                .allMatch(x -> x.getName().startsWith("L"));
+        System.out.println(rpta2);
+
+* El output despues de ejecutar va a ser false ya que no se cumple con la condición del allMatch
+en todas las iteraciones.
+```
+
+```shell
+Ejemplo 3: noneMatch
+
+- Para el noneMatch si vamos a trabajar con una lista de personas se debe evaluar cada uno de los
+datos que se obtienen de la lista, es este caso vamos a evaluar si alguno de los nombres inicia
+con la letra ("L") y como efectivamente hay un dato que es (Liliana) el debe retornar un false
+
+
+        boolean rpta3 = persons
+                .stream()
+                .noneMatch(x -> x.getName().startsWith("L"));
+        System.out.println(rpta3);
+
+* Cambiando de ejemplo si buscamos con letra ("X") En toda la lista se va a encontrar que no se
+tiene nunguna coincidencia y esto hace que el output sea true
+
+        boolean rpta3 = persons
+                .stream()
+                .noneMatch(x -> x.getName().startsWith("X"));
+        System.out.println(rpta3);
+```
 
 ## Metodo MAP (param : function)
 
