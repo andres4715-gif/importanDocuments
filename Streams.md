@@ -164,6 +164,8 @@ Teniendo en cuenta que se tiene la lista de personas y se quiere tener dicha lis
 
 ```shell
 
+Ejemplo 1:
+
 Lo primero que se debe tener en cuenta es que vamos a requerir una Lista<String>
 ya que el dato name es de tipo <String> y vamos a trabajar con la lista (persons) a dicha
 colección se el aplica el metodo .stream(), luego el metodo .map() para obtener los nombres,
@@ -192,7 +194,9 @@ Estevan
 Jorge
 Liliana
 
-______________________________________
+```
+
+```shell
 
 - Hacer lo mismo pero con un objeto completo:
 
