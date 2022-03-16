@@ -15,3 +15,41 @@ $ maven clean: Limpia la carpeta target
 
 
 ```
+
+## Crear un nuevo proyecto de maven desde la consola:
+
+- Crear una carpeta en alguna ruta de la maquina:
+
+```shell
+$ cd /Users/andresrios/Desktop/NewMavenProject
+```
+
+- Para crear el archetype del proyecto se puede tomar este ejemplo, en la ruta del proyecto en la consola se debe agregar el siguiente comando:
+
+```shell
+$ mvn -B archetype:generate -DgroupId=com.wizeline.app -DartifactId=my-app-wizeline-practice -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4
+```
+
+- Explicación de la linea de comandos:
+
+```shell
+-> mvn -B archetype:generate: Disponible en las ultimas versiones y es para crear el archetype
+
+-> -DgroupId=com.wizeline.app: Es sobre la estructura que va a tener el proyecto
+
+-> -DartifactId=my-app-wizeline-practice: Es el nombre del proyecto
+
+-> -DarchetypeArtifactId=maven-archetype-quickstart: Para crear un proyecto web pero puede tomar el valor que sea requerido.
+```
+
+![Image text]()
+
+- Con el proyecto creado lo que se hace es por linea de comandos ingresar en la carpeta del proyecto el siguiente comando:
+
+- Esto lo que hace es crear la carpeta target en el proyecto:
+
+```shell
+$ mvn compile
+```
+
+![Image text]()
