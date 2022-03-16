@@ -13,7 +13,8 @@
 ## Comandos:
 
 ```shell
-$ maven clean: Limpia la carpeta target
+$ mvn clean: Limpia la carpeta target
+$ mvn install: Es para instalar las dependencias de forma local y eso permite que se puedan utilizar en otro proyecto
 
 
 ```
