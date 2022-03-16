@@ -42,7 +42,7 @@ $ mvn -B archetype:generate -DgroupId=com.wizeline.app -DartifactId=my-app-wizel
 -> -DarchetypeArtifactId=maven-archetype-quickstart: Para crear un proyecto web pero puede tomar el valor que sea requerido.
 ```
 
-![Image text]()
+![Image text](https://github.com/andres4715-gif/importanDocuments/blob/master/imagenes/Screen%20Shot%202022-03-16%20at%2012.10.23%20PM.png)
 
 - Con el proyecto creado lo que se hace es por linea de comandos ingresar en la carpeta del proyecto el siguiente comando:
 
@@ -52,4 +52,4 @@ $ mvn -B archetype:generate -DgroupId=com.wizeline.app -DartifactId=my-app-wizel
 $ mvn compile
 ```
 
-![Image text]()
+![Image text](https://github.com/andres4715-gif/importanDocuments/blob/master/imagenes/Screen%20Shot%202022-03-16%20at%2012.14.50%20PM.png)
