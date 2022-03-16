@@ -53,3 +53,7 @@ $ mvn compile
 ```
 
 ![Image text](https://github.com/andres4715-gif/importanDocuments/blob/master/imagenes/Screen%20Shot%202022-03-16%20at%2012.14.50%20PM.png)
+
+- Despues de añadir el comando mvn compile se puede la nueva estructura del proyecto:
+
+![Image text]()
