@@ -121,3 +121,26 @@ Archivo en xml (Project Object Model)
 </project>
 
 ```
+
+# _Saber un poco mas sobre el archivo POM y las properties para cambios de ambiente dependiendo de la ejecucion requerida._
+
+- Atributos personalizados
+- Los usuarios pueden personalizar las propiedades de Maven bajo los elementos de POM
+
+- Se puede ver el siguiente [video](https://www.youtube.com/watch?v=s7boC0U4iew&list=PLvimn1Ins-40atMWQkxD8r8pRyPLAU0iQ&index=7) para saber como se pueden configurar los ambientes con archivos .properties esto se configura con el archivo runner en el IDE y se podria correr en diferentes ambienes
+
+```xml
+ <! - Versión dependiente de la configuración ->
+ <properties>
+     <!-- Environment Settings -->
+     <java.version>1.8</java.version>
+     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+
+     <!-- Spring cloud Settings   -->
+     <spring-cloud.version>Finchley.RELEASE</spring-cloud.version>
+     <spring-boot-admin.version>2.0.1</spring-boot-admin.version>
+     <zipkin.version>2.10.1</zipkin.version>
+ </properties>
+
+```
