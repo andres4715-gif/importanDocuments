@@ -8,6 +8,8 @@
 
 - NOTA: Con Maven se pueden crear los .jar para [saber](https://www.youtube.com/watch?v=4OhwsOxYJWc&list=PLvimn1Ins-40atMWQkxD8r8pRyPLAU0iQ&index=3) como se crea el ejecutable del proyecto se pude ver el video.
 
+- NOTA: Tener en cuenta que es posible tener mas de un archivo POM en el mismo proyecto y solo es saber cual se quiere utilizar, se puede ver en este [video](https://www.youtube.com/watch?v=zFcD8cqLFmo&list=PLvimn1Ins-40atMWQkxD8r8pRyPLAU0iQ&index=8)
+
 - Primero que todo siempre buscar la forma de importar los proyectos en el IDE como proyectos tipo maven es decir no como proyectos java normales
 
 ## Comandos:
