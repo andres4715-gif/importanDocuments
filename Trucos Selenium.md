@@ -109,7 +109,8 @@ JsonFileTest jsonfile = new JsonFileTest();
 - En en page lo que se hace es agregar el selector del elemento que contiene
 la lista de elementos
 
-- Luego se crea una instancia de la clase Select y con el metodo selectByVisibleText se agrega el elemento que se requiera:
+- Luego se crea una instancia de la clase Select y con el metodo selectByVisibleText se agrega el elemento
+que se requiera:
 
 - Ejemplo:
 
@@ -142,8 +143,9 @@ la lista y luego se hace el llamado al metodo de Selenium: switchTo()
     ArrayList<String> newTb = new ArrayList<String>(driver.getWindowHandles();
     driver.switchTo().window(newTb.get(1));
 
-- Depende de la necedidad seria validar que si estemos en la siguiente pagina y para esto en el page que se este utilizando
-se puede crear un metodo para obtener algún texto, se podria hacer de la siguiente forma:
+- Depende de la necedidad seria validar que si estemos en la siguiente pagina y para esto en el page que se este
+utilizandose puede crear un metodo para obtener algún texto, se podria
+hacer de la siguiente forma:
 
     By newWindowsText = By.xpath("//h3[text() = 'New Window']");
 
