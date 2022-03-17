@@ -74,7 +74,8 @@ import org.json.JSONObject;
 @Data
 public class JsonFileTest {
 
-    private String line = "[{\"username\":\"tomsmith\",\"password\":\"SuperSecretPassword!\",\"url\":\"https://the-internet.herokuapp.com\"}]";
+    private String line =
+    "[{\"username\":\"tomsmith\",\"password\":\"SuperSecretPassword!\",\"url\":\"https://the-internet.herokuapp.com\"}]";
 
     public String checkResource(String jsonElement) {
         JSONArray recs = new JSONArray(getLine());
