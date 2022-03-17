@@ -128,5 +128,30 @@ public class DropDown {
         option.selectByVisibleText("Option 1");
     }
 }
+```
 
+## SWITCH TO OTHER TAP:
+
+- Para hacer esto se da el click en la pagina anterior para que sea desplegado el otro TAP dentro del navegadro y ya con la otro pagina abierta lo que se hace es crear un Lista de String, quedaria de esta forma:
+
+```java
+
+En la clase donde se esta ejecutando el test (no necesaria mente), se crea
+la lista y luego se hace el llamado al metodo de Selenium: switchTo()
+
+    ArrayList<String> newTb = new ArrayList<String>(driver.getWindowHandles();
+    driver.switchTo().window(newTb.get(1));
+
+- Depende de la necedidad seria validar que si estemos en la siguiente pagina y para esto en el page que se este utilizando se puede crear un metodo para obtener algún texto, se podria hacer de la siguiente forma:
+
+    By newWindowsText = By.xpath("//h3[text() = 'New Window']");
+
+    public String getNewWindowsText() {
+        String gettingTextLabelNewPage = driver.findElement(newWindowsText).getText();
+        return gettingTextLabelNewPage;
+    }
+
+- Ya seria llamar el metodo creado desde la clase donde se ejecuta el test y hacer un Assert pero eso es opcional:
+
+Assert.assertEquals(openingnewwindowspage.getNewWindowsText(), "New Window");
 ```
