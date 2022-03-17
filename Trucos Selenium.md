@@ -100,3 +100,33 @@ JsonFileTest jsonfile = new JsonFileTest();
         loginpage.addPassword(jsonfile.checkResource("password"));
 
 ```
+
+## DROPDOWN
+
+- Como manejar los dropDown
+
+```java
+- En en page lo que se hace es agregar el selector del elemento que contiene
+la lista de elementos
+
+- Luego se crea una instancia de la clase Select y con el metodo selectByVisibleText se agrega el elemento que se requiera:
+
+- Ejemplo:
+
+public class DropDown {
+
+    WebDriver driver;
+
+    By pleaseSelectAnOptionDropDown = By.id("dropdown");
+
+    public DropDown(WebDriver driver) {
+        this.driver = driver;
+    }
+
+    public void chooseAnOptionDropDown() {
+        Select option = new Select(driver.findElement(pleaseSelectAnOptionDropDown));
+        option.selectByVisibleText("Option 1");
+    }
+}
+
+```
