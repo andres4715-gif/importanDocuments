@@ -1,4 +1,4 @@
-# _Como iniciar con la primera clase despues de tener el Maven listto_
+# _Como iniciar con la primera clase despues de tener el Maven listo_
 
 ## Ejemplo con POM y Trabajando con un Json como fuente de datos:
 
