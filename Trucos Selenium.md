@@ -132,7 +132,7 @@ public class DropDown {
 
 ## SWITCH TO OTHER TAP:
 
-- Para hacer esto se da el click en la pagina anterior para que sea desplegado el otro TAP dentro del navegadro y ya con la otro pagina abierta lo que se hace es crear un Lista de String, quedaria de esta forma:
+- Para hacer esto se da el click en la pagina anterior para que sea desplegado el otro TAP dentro del navegador y ya con la otro pagina abierta lo que se hace es crear un Lista de String, quedaria de esta forma:
 
 ```java
 
@@ -142,7 +142,8 @@ la lista y luego se hace el llamado al metodo de Selenium: switchTo()
     ArrayList<String> newTb = new ArrayList<String>(driver.getWindowHandles();
     driver.switchTo().window(newTb.get(1));
 
-- Depende de la necedidad seria validar que si estemos en la siguiente pagina y para esto en el page que se este utilizando se puede crear un metodo para obtener algún texto, se podria hacer de la siguiente forma:
+- Depende de la necedidad seria validar que si estemos en la siguiente pagina y para esto en el page que se este utilizando
+se puede crear un metodo para obtener algún texto, se podria hacer de la siguiente forma:
 
     By newWindowsText = By.xpath("//h3[text() = 'New Window']");
 
