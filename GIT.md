@@ -169,6 +169,6 @@ este es el que van a aprobar despues de hacer el pull request.
 
 $ git push origin <MI RAMA EN LA QUE TRABAJE> --force
 
-En este punto se puede mirar en el repositorio que todos los commits son comprimidos en uno inclusive se puede presentar
-que se tenga commits de otros pero esos no nos importan por que eso ya estaba en la rama ppal.
+En este punto se puede mirar en el repositorio que todos los commits son comprimidos en uno inclusive se puede
+presentar que se tenga commits de otros pero esos no nos importan por que eso ya estaba en la rama ppal.
 ```
