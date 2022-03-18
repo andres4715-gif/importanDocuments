@@ -141,7 +141,7 @@ Desde la rama que estoy trabajando, esto es para descargar la ultima
 version de la app ya que puede tener cambios (esto es mejor hacerlo
 siempre si se trabaja con alguien mas)
 
-git pull --rebase origin <LA RAMA DONDE NACIO MI RAMA>
+$ git pull --rebase origin <LA RAMA DONDE NACIO MI RAMA>
 
 * NOTA:  Esto es para traer la ultima version que se tenga en la rama principal  y cuando llega a nuestra rama ya tiene
 un commit (No es necesario hacer un nuevo comit) en caso de tener conflictos se debe solucionar.
