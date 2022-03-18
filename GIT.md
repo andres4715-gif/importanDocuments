@@ -88,3 +88,12 @@ $ git reset --hard cadb9d45c9643a4cb157357f9a30f9df92750f1d
 El comando a utilizar para esto es:
 $ git log --oneline --decorate --all --graph
 ```
+
+- Para borrar una rama que de forma local:
+
+```shell
+- El comando para borrar una rama debemos estar una rama diferente
+de la rama que se requiere borrar y el comando es:
+
+$ git branch -d <"Nombre de la rama a eliminar">
+```
