@@ -81,11 +81,10 @@ $ git reset --hard cadb9d45c9643a4cb157357f9a30f9df92750f1d
 
 - Para ver todo el historial con graficos
 
+![Image text](https://github.com/andres4715-gif/importanDocuments/blob/master/imagenes/Screen%20Shot%202022-03-18%20at%2011.11.43%20AM.png)
+
 ```shell
 
 El comando a utilizar para esto es:
 $ git log --oneline --decorate --all --graph
-
-![Image text](https://github.com/andres4715-gif/importanDocuments/blob/master/imagenes/Screen%20Shot%202022-03-18%20at%2011.11.43%20AM.png)
-
 ```
