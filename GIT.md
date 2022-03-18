@@ -146,9 +146,8 @@ git pull --rebase origin <LA RAMA DONDE NACIO MI RAMA>
 * NOTA:  Esto es para traer la ultima version que se tenga en la rama principal  y cuando llega a nuestra rama ya tiene
 un commit (No es necesario hacer un nuevo comit) en caso de tener conflictos se debe solucionar.
 
-* NOTA2: En caso de tener la funcionalidad lista un nuestra rama
-se puede hacer el pull request sin problema ya que no debe
-tener confictos
+* NOTA2: En caso de tener la funcionalidad lista un nuestra rama se puede hacer el pull request sin problema
+ya que no debe tener confictos
 
 * NOTA3: Despues de tener el pull request listo ya los cambios
 estan en el origin (nube) en ese caso, si se quiere ver los
