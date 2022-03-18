@@ -1,5 +1,13 @@
 # _GIT_
 
+- Paginas de consultas rapidas
+
+[Descartar cambios de archivos con Git](https://desarrolloweb.com/articulos/descartar-cambios-archivos-git.html)
+
+[Git Stash Explicado](https://www.freecodecamp.org/espanol/news/git-stash-explicado/)
+
+---
+
 - Agregar Tu Nombre y Correo Electrónico
 
 ```shell
@@ -124,4 +132,51 @@ $ git stash drop NOMBRE-DEL-STASH
 - Para limpiar todo del stash, ejecuta el comando:
 
 $ git stash clear
+```
+
+- # it rebase -> git squash
+
+```text
+Desde la rama que estoy trabajando, esto es para descargar la ultima
+version de la app ya que puede tener cambios (esto es mejor hacerlo
+siempre si se trabaja con alguien mas)
+
+git pull --rebase origin <LA RAMA DONDE NACIO MI RAMA>
+
+* NOTA:  Esto es para traer la ultima version que se tenga en la rama
+principal  y cuando llega a nuestra rama ya tiene un
+commit (No es necesario hacer un nuevo comit) en caso de tener conflictos
+se debe solucionar
+
+* NOTA2: En caso de tener la funcionalidad lista un nuestra rama
+se puede hacer el pull request sin problema ya que no debe
+tener confictos
+
+* NOTA3: Despues de tener el pull request listo ya los cambios
+estan en el origin (nube) en ese caso, si se quiere ver los
+cambios en la rama local se debe se debe hacer con este
+comando: git pull origin master
+
+____________________________________
+
+- Con un git logline se puede ver los commits que hay que
+hacerles el squash por que puede tener mas commits de otras personas.
+
+git rebase -i HEAD~<CANTIDAD DE COMMITS IDENTIFICADOS>
+
+Se muestra una ventana con todos los commits que se
+tienen, se deja el primero como esta osea con <p> y
+los otros se cambia por <s>
+
+Se deja el comment que se quiera dejar ya que con este
+nombre va a quedar el unico commit y este es el que
+van a aprobar despues de hacer el pull request.
+
+git push origin <MI RAMA EN LA QUE TRABAJE> --force
+
+En este punto se puede mirar en el repositorio que todos
+los commits son comprimidos en uno inclusive se puede
+presentar que se tenga commits de otros pero esos no nos
+importan por que eso ya estaba en la rama ppal
+
 ```
