@@ -149,10 +149,10 @@ un commit (No es necesario hacer un nuevo comit) en caso de tener conflictos se 
 * NOTA2: En caso de tener la funcionalidad lista un nuestra rama se puede hacer el pull request sin problema
 ya que no debe tener confictos
 
-* NOTA3: Despues de tener el pull request listo ya los cambios
-estan en el origin (nube) en ese caso, si se quiere ver los
-cambios en la rama local se debe se debe hacer con este
-comando: git pull origin master
+* NOTA3: Despues de tener el pull request listo ya los cambios estan en el origin (nube) en ese caso, si se quiere
+ver los cambios en la rama local se debe se debe hacer con este comando:
+
+$ git pull origin master
 
 ____________________________________
 
