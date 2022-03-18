@@ -97,3 +97,31 @@ de la rama que se requiere borrar y el comando es:
 
 $ git branch -d <"Nombre de la rama a eliminar">
 ```
+
+- GIT STASH
+
+En este [link](https://www.freecodecamp.org/espanol/news/git-stash-explicado/) Esta toda la documentación sobre los Stash
+
+```shell
+- Guardar cambios en el stash
+
+$ git stash save "mensaje opcional para ti"
+
+- Ver los cambios guardados en el stash
+
+$ git stash list
+
+- Recuperar Cambios en Stash
+
+$ git stash apply NOMBRE-DEL-STASH -> aplica los cambios y deja una copia en el stash
+
+$ git stash pop NOMBRE-DEL-STASH -> aplica los cambio y elimina los archivos del stash
+
+- Borrar los Cambios Guardados en Stash
+
+$ git stash drop NOMBRE-DEL-STASH
+
+- Para limpiar todo del stash, ejecuta el comando:
+
+$ git stash clear
+```
