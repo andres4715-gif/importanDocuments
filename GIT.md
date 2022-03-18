@@ -78,3 +78,13 @@ Con el id del commit por ejemplo: cadb9d45c9643a4cb157357f9a30f9df92750f1d se pu
 
 $ git reset --hard cadb9d45c9643a4cb157357f9a30f9df92750f1d
 ```
+
+- Para ver todo el historial con graficos
+
+```shell
+
+El comando a utilizar para esto es:
+$ git log --oneline --decorate --all --graph
+
+
+```
