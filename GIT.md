@@ -136,7 +136,7 @@ $ git stash clear
 
 - # it rebase -> git squash
 
-```text
+```shell
 Desde la rama que estoy trabajando, esto es para descargar la ultima
 version de la app ya que puede tener cambios (esto es mejor hacerlo
 siempre si se trabaja con alguien mas)
