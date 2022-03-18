@@ -156,24 +156,21 @@ $ git pull origin master
 
 ____________________________________
 
-- Con un git logline se puede ver los commits que hay que
-hacerles el squash por que puede tener mas commits de otras personas.
+- Con un git logline se puede ver los commits que hay que hacerles el squash por que puede tener mas
+commits de otras personas.
 
-git rebase -i HEAD~<CANTIDAD DE COMMITS IDENTIFICADOS>
+$ git rebase -i HEAD~<CANTIDAD DE COMMITS IDENTIFICADOS>
 
-Se muestra una ventana con todos los commits que se
-tienen, se deja el primero como esta osea con <p> y
-los otros se cambia por <s>
+Se muestra una ventana con todos los commits que se tienen, se deja el primero
+como esta osea con <p> y los otros se cambia por <s>
 
-Se deja el comment que se quiera dejar ya que con este
-nombre va a quedar el unico commit y este es el que
-van a aprobar despues de hacer el pull request.
+Se deja el comment que se quiera dejar ya que con este nombre va a quedar el unico commit y
+este es el que van a aprobar despues de hacer el pull request.
 
-git push origin <MI RAMA EN LA QUE TRABAJE> --force
+$ git push origin <MI RAMA EN LA QUE TRABAJE> --force
 
-En este punto se puede mirar en el repositorio que todos
-los commits son comprimidos en uno inclusive se puede
-presentar que se tenga commits de otros pero esos no nos
-importan por que eso ya estaba en la rama ppal
-
+En este punto se puede mirar en el repositorio que todos los commits son comprimidos en uno
+inclusive se puede presentar que se tenga commits de otros pero esos no nos
+importan por que eso
+ya estaba en la rama ppal.
 ```
