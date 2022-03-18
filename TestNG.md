@@ -2,7 +2,7 @@
 
 ![image text](https://github.com/andres4715-gif/importanDocuments/blob/master/imagenes/testng-tutorial.png)
 
-- Hasta ahora solo se han hecho algunos ejercicions pero con el video tutorial que mas he trabajado y mas me ha gustado es este [video turorial](https://www.youtube.com/playlist?list=PLUDwpEzHYYLsWENabqeETzgPLbmwqhM45)
+- Hasta ahora solo se han hecho algunos ejercicios pero con el video tutorial que mas he trabajado y mas me ha gustado es este [video turorial](https://www.youtube.com/playlist?list=PLUDwpEzHYYLsWENabqeETzgPLbmwqhM45)
 
 ## Lista de videos:
 
