@@ -4,9 +4,12 @@
 
 - Hasta ahora solo se han hecho algunos ejercicions pero con el video tutorial que mas he trabajado y mas me ha gustado es este [video turorial](https://www.youtube.com/playlist?list=PLUDwpEzHYYLsWENabqeETzgPLbmwqhM45)
 
-```md
-- [Tutorial 1: TestNG with intelliJ IDE | Introduction Advantages of TestNG | Setup Environment](https://www.youtube.com/watch?v=cTsohktFPfE&list=PLUDwpEzHYYLsWENabqeETzgPLbmwqhM45&index=4)
-- Tutorial 2:TestNG with intelliJ IDE|Creating & Run Tests using TestNG.xml|TestNG Report
+## Lista de videos:
+
+- [Tutorial 1: TestNG with intelliJ IDE | Introduction Advantages of TestNG | Setup Environment](https://www.youtube.com/watch?v=MsIQmCJD0Hc&list=PLUDwpEzHYYLsWENabqeETzgPLbmwqhM45&index=1)
+
+- [Tutorial 2:TestNG with intelliJ IDE|Creating & Run Tests using TestNG.xml|TestNG Report](https://www.youtube.com/watch?v=kjv3MNDo52Y&list=PLUDwpEzHYYLsWENabqeETzgPLbmwqhM45&index=2)
+
 - Tutorial 3:TestNG with intelliJ IDE| Annotations in TestNG|How to use Annotations
 - Tutorial 4:TestNG with intelliJ IDE| Prioritizing & Disabling Tests
 - Tutorial 5:TestNG with intelliJ IDE| Dependency Tests in TestNG & AlwaysRun property
@@ -16,4 +19,3 @@
 - Tutorial 9:TestNG with intelliJ IDE| DataProvider in TestNG | Parameterization
 - Tutorial 10:TestNG with intelliJ IDE| Parallel Tests
 - Tutorial 11:TestNG with intelliJ IDE| Listeners
-```
