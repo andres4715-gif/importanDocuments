@@ -6,6 +6,8 @@
 
 [Git Stash Explicado](https://www.freecodecamp.org/espanol/news/git-stash-explicado/)
 
+[Borrar ramas locales y desde el origin](https://www.hostinger.es/tutoriales/renombrar-rama-git)
+
 ---
 
 - Agregar Tu Nombre y Correo Electrónico
