@@ -8,7 +8,13 @@
 
 .map() ...
 
+- Adicional a esto se debe saber que los streams tienen operaciones intermedias sin necesidad de poner punto y coma donde se pueden concatenar una seria de operaciones sobre un objeto stream. por ejemplo: filter, map y sort para dar solo un ejemplo (foreach) es una operación terminal.
+
+---
+
 - La documentación se puede ver en esta [Pagina](https://www.youtube.com/watch?v=U5oOdNG2XQY)
+
+---
 
 ## Dada la clase personas:
 
