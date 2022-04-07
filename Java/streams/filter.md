@@ -81,6 +81,8 @@ public class App {
 - Predicate: Lo que significa es que retorna un booleano (true or false)
   para poder seguir avanzando y obtener la lista que se quiere obtener. claro esta que no es necesario que sea un booleano, solo es un paso que nos permite seguir avanzando a obtener el resultado que queremos para continuar con el flufo que queremos.
 
+- El metodo filter nos crea un nuevo ArrayList para contitnuar trabajado y no afectar el ArrayList que ya tenemos:
+
 ```shell
 
 Ejemplo:

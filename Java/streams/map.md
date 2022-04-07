@@ -2,6 +2,8 @@
 
 - Este permite modificar los elementos que se esten trabajando en el stream.
 
+- Con este no se tiene una nueva lista, lo que se logra es modificar la lista existente modificando el resultado.
+
 - Lo que se espera que retorne el mapa es un parametro o un valor producto del resultado de la funcion que se haya hecho.
 
 ```shell
