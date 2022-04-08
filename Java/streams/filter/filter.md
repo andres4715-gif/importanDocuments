@@ -115,7 +115,7 @@ Person(id=5, name=Camilo, birthday=1980-05-22)
 
 ---
 
-# _ejemplo2:_
+# _Ejemplo2:_
 
 - Data la clase modelo:
 
