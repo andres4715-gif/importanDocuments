@@ -1,5 +1,10 @@
 ## _STREAMS_
 
+Definiciones:
+
+- Collection: Esto representea un grupo de DATA/OBJECTS como una sola entidad.
+- Stream: Procesamiento de collecciones de datos.
+
 - Lo primero que se debe saber de los .streams es que utilizan lambdas para su funcionamiento y a partir de ahi se puede lograr trabajar con colecciones de datos aplicando diferentes metodos como
 
 .filter()
