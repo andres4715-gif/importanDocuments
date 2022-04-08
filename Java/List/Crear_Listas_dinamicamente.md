@@ -45,3 +45,29 @@ import java.util.stream.Collectors;
 // output
 [2, 12, 34, 56, 1, 76, 87, 29, 676, 76, 7]
 ```
+
+```java
+* Ejemplo4:
+
+import java.util.Arrays;
+import java.util.List;
+
+    String[] myArray = {"Andres", "Camilo", "Juan", "Alejandra"};
+    List<String> nyList = new ArrayList<>(Arrays.asList(myArray));
+
+// output
+[Alejandra, Andres]
+```
+
+```java
+* Ejemplo5:
+
+import java.util.Arrays;
+import java.util.List;
+
+        String[] data = {"Andres", "Liliana", "Carlos", "Alejandro"};
+        List<String> myOwnList = Arrays.asList(data);
+
+// output
+[Andres, Liliana, Carlos, Alejandro]
+```
