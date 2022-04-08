@@ -110,3 +110,82 @@ Person(id=3, name=Estevan, birthday=1960-02-11)
 Person(id=4, name=Liliana, birthday=1979-04-03)
 Person(id=5, name=Camilo, birthday=1980-05-22)
 ```
+
+---
+
+# _Otro ejemplo:_
+
+- Data la clase modelo:
+
+```java
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
+@Data
+@AllArgsConstructor
+public class Usuarios {
+
+    private String nombre;
+    private String apellido;
+    private Integer edad;
+    private String sexo;
+}
+```
+
+- Data la clase intermedia:
+
+```java
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
+
+public class StepDefinition {
+
+    public static List<Usuarios> checkig() {
+
+        String miarray;
+        List<Usuarios> youngPeople;
+
+        List<Usuarios> user = new ArrayList<>();
+        user.add(new Usuarios("Andres", "Rios", 45, "M"));
+        user.add(new Usuarios("Oscar", "Quintero", 40, "M"));
+        user.add(new Usuarios("Viviana", "Hernandez", 3, "F"));
+        user.add(new Usuarios("Carmen", "Urrea", 12, "F"));
+
+        youngPeople = user
+                .stream()
+                .filter(x -> x.getEdad() <= 30)
+                .collect(Collectors.toList());
+
+        return youngPeople;
+    }
+}
+```
+
+- Dada la clase main
+
+```java
+import java.util.List;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        int checkResultAmount;
+        List<Usuarios> namesList = StepDefinition.checkig();
+        checkResultAmount = namesList.size();
+        System.out.println("La lista tiene: " + checkResultAmount + " elementos");
+
+
+        for (Usuarios holasss : namesList) {
+            System.out.println(holasss.getNombre());
+        }
+    }
+}
+```
+
+- Se obtiene el output:
+
+La lista tiene: 2 elementos
+Viviana
+Carmen
