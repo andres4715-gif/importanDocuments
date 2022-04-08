@@ -139,14 +139,10 @@ public class Usuarios {
 ```java
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class StepDefinition {
 
-    public static List<Usuarios> checkig() {
-
-        String miarray;
-        List<Usuarios> youngPeople;
+    public static void checkig() {
 
         List<Usuarios> user = new ArrayList<>();
         user.add(new Usuarios("Andres", "Rios", 45, "M"));
@@ -154,12 +150,9 @@ public class StepDefinition {
         user.add(new Usuarios("Viviana", "Hernandez", 3, "F"));
         user.add(new Usuarios("Carmen", "Urrea", 12, "F"));
 
-        youngPeople = user
-                .stream()
+        user.stream()
                 .filter(x -> x.getEdad() <= 30)
-                .collect(Collectors.toList());
-
-        return youngPeople;
+                .forEach(x -> System.out.println(x.getNombre()));
     }
 }
 ```
@@ -167,27 +160,16 @@ public class StepDefinition {
 - Dada la clase main
 
 ```java
-import java.util.List;
-
 public class Main {
 
     public static void main(String[] args) {
 
-        int checkResultAmount;
-        List<Usuarios> namesList = StepDefinition.checkig();
-        checkResultAmount = namesList.size();
-        System.out.println("La lista tiene: " + checkResultAmount + " elementos");
-
-
-        for (Usuarios holasss : namesList) {
-            System.out.println(holasss.getNombre());
-        }
+        StepDefinition.checkig();
     }
 }
 ```
 
 - Se obtiene el output:
 
-La lista tiene: 2 elementos
 Viviana
 Carmen
