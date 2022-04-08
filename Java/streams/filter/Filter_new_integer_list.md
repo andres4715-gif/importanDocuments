@@ -1,6 +1,6 @@
 # _Filter example:_
 
-## Obteniendo de una lista y con el metodo filter creando una nueva lista:
+## Obteniendo de una lista de Integer con el metodo filter creando una nueva lista:
 
 ## _Data la clase con la lista:_
 
@@ -41,3 +41,6 @@ public class FilterDemo1 {
     }
 }
 ```
+
+Output:
+[10, 20, 30]
