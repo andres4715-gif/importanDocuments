@@ -10,7 +10,7 @@ import java.util.List;
 
 
 List<Integer> myIntegerList = Arrays.asList(10, 12, 20, 45, 45, 54);
-List<String> myStringList = Arrays.asList("Andrse", "Carlos", "Liliana", "Stevan");
+List<String> myStringList = Arrays.asList("Andres", "Carlos", "Liliana", "Stevan");
 List<Boolean> myBooleanList = Arrays.asList(true, false);
 ```
 
