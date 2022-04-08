@@ -1,4 +1,6 @@
-## Dada la clase personas:
+# _Ejemplo 1_:
+
+# Dada la clase personas:
 
 ```shell
 package javaPractice.stream.entendiendoStreams;
@@ -113,7 +115,7 @@ Person(id=5, name=Camilo, birthday=1980-05-22)
 
 ---
 
-# _Otro ejemplo:_
+# _ejemplo2:_
 
 - Data la clase modelo:
 
