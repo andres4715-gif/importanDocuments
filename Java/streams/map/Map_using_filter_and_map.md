@@ -37,3 +37,6 @@ public class MainIntegerListToPracticeMap {
     }
 }
 ```
+
+- El output es:
+  [30]
