@@ -10,3 +10,5 @@
 
 NOTA: Despues de haber realizado un FlatMap se puede trabajar de forma individual con los elementos ya que en ese punto ya
 se ha trabajado con el grupo de objetos.
+
+![Image text](https://github.com/andres4715-gif/importanDocuments/blob/master/imagenes/flatMap.png)
