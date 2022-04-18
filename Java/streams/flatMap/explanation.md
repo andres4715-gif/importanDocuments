@@ -16,7 +16,7 @@ la union de los objetos que se tienen en una sola lista:
 
 ![Image text](https://github.com/andres4715-gif/importanDocuments/blob/master/imagenes/flatMap.png)
 
-- Example:
+- Example 1:
 
 ```java
 import java.util.Arrays;
