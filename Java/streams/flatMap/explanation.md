@@ -43,10 +43,8 @@ public class DemoFlatMap {
         System.out.println(finalResult);
     }
 }
-```
 
 - El output es:
 
-```java
 [11, 12, 13, 14, 15, 16]
 ```
