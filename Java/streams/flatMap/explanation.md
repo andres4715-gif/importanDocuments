@@ -71,7 +71,6 @@ public class DemoFlatMap {
         List<Integer> finalResult = mainTotalList
                 .stream()
                 .flatMap(x -> x.stream())
-                .map(z -> z + 10) // aplica solo si es necesario hacer alguna modificación a los datos.
                 .collect(Collectors.toList());
         System.out.println(finalResult);
     }
