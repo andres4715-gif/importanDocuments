@@ -1,3 +1,3 @@
-# _Test cases to aply on this test:_
+# _Test cases to apply on this test:_
 
-[Image text](https://github.com/andres4715-gif/importanDocuments/blob/master/imagenes/testcases.png)
+![Image text](https://github.com/andres4715-gif/importanDocuments/blob/master/imagenes/testcases.png)
