@@ -129,4 +129,14 @@ Query result:
 '424', 'Classic Legends Inc.', 'Hernandez', 'Maria', '2125558493', '5905 Pompton St.', 'Suite 750', 'NYC', 'NY', '10022', 'USA', '1286', '67500.00'
 '456', 'Microscale Inc.', 'Choi', 'Yu', '2125551957', '5290 North Pendale Street', 'Suite 200', 'NYC', 'NY', '10022', 'USA', '1286', '39800.00'
 
+Another example:
+select * from orders where customerNumber = 362 and status = "Shipped";
+
+Query result:
+
+# orderNumber, orderDate, requiredDate, shippedDate, status, comments, customerNumber
+'10295', '2004-09-10', '2004-09-17', '2004-09-14', 'Shipped', 'They want to reevaluate their terms agreement with Finance.', '362'
+'10264', '2004-06-30', '2004-07-06', '2004-07-01', 'Shipped', 'Customer will send a truck to our local warehouse on 7/1/2004', '362'
+
+
 ```
