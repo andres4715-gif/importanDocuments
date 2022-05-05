@@ -114,3 +114,19 @@ Query result:
 'salesRepEmployeeNumber', 'int'
 'state', 'varchar(50)'
 ```
+
+- Para hacer queryes mas avanzados se puede utilizar uniones como lo son: (where, and)
+  Un ejemplo para esto es el siguiente comando:
+
+```shell
+select * from customers where city = "NYC" and postalCode = "10022";
+
+Query result:
+# customerNumber, customerName, contactLastName, contactFirstName, phone, addressLine1, addressLine2, city, state, postalCode, country, salesRepEmployeeNumber, creditLimit
+'131', 'Land of Toys Inc.', 'Lee', 'Kwai', '2125557818', '897 Long Airport Avenue', NULL, 'NYC', 'NY', '10022', 'USA', '1323', '114900.00'
+'151', 'Muscle Machine Inc', 'Young', 'Jeff', '2125557413', '4092 Furth Circle', 'Suite 400', 'NYC', 'NY', '10022', 'USA', '1286', '138500.00'
+'181', 'Vitachrome Inc.', 'Frick', 'Michael', '2125551500', '2678 Kingston Rd.', 'Suite 101', 'NYC', 'NY', '10022', 'USA', '1286', '76400.00'
+'424', 'Classic Legends Inc.', 'Hernandez', 'Maria', '2125558493', '5905 Pompton St.', 'Suite 750', 'NYC', 'NY', '10022', 'USA', '1286', '67500.00'
+'456', 'Microscale Inc.', 'Choi', 'Yu', '2125551957', '5290 North Pendale Street', 'Suite 200', 'NYC', 'NY', '10022', 'USA', '1286', '39800.00'
+
+```
