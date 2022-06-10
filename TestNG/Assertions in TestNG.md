@@ -2,6 +2,10 @@
 
 - Check this [LINK](https://www.seleniumeasy.com/testng-tutorials/assertions-in-testng)
 
+- More examples in this [link](https://www.javadoc.io/doc/org.testng/testng/6.8.17/org/testng/Assert.html)
+
+---
+
 - What is Assertion????
 
 * Asserts helps us to verify the conditions of the test and decide whether test has failed or passed. A test is considered successful ONLY if it is completed without throwing any exception. There is a difference between SoftAssert and Hard Assert.
@@ -35,12 +39,34 @@ assertEquals(boolean actual,boolean expected) :- It takes two Boolean arguments 
 assertEquals(java.util.Collection actual, java.util.Collection expected, java.lang.String message) :- Takes two collection objects and verifies both collections contain the same elements and with the same order. if not it will fail the test with the given message.
 ```
 
+- assertNull –
+
+This assertion checks if the object is null or not. It aborts the test if object is null and gives an exception.
+
+```text
+Assert.assertNull(object);
+```
+
+- assertNotNull –
+
+This assertion checks if object is null or not. It aborts the test if object is not null that is if object is having any value and gives an exception.
+
+```text
+Assert.assertNotNull(object);
+```
+
 - assertTrue
 
 ```text
 Assert.assertTrue(condition) :- It takes one boolean arguments and checks that a condition is true, If it isn't, an AssertionError is thrown.
 
 Assert.assertTrue(condition, message) :- It takes one boolean argument and String message. It Asserts that a condition is true. If it isn't, an AssertionError, with the given message, is thrown.
+```
+
+- assertNotEquals
+
+```text
+Assert.assertNotEquals(actual, expected, message;
 ```
 
 - assertFalse
@@ -65,3 +91,7 @@ Assert.assertFalse(condition, message) :- It takes one boolean argument and Stri
 		}
 }
 ```
+
+- Soft Assertion :
+
+These types of Assertions are the type of assertions do not throw an exception when an assertion fails and continues with the next step after the assert statement.
