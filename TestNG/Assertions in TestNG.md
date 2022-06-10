@@ -1,5 +1,7 @@
 # Assertions in TestNG
 
+- Check this [LINK](https://www.seleniumeasy.com/testng-tutorials/assertions-in-testng)
+
 - What is Assertion????
 
 * Asserts helps us to verify the conditions of the test and decide whether test has failed or passed. A test is considered successful ONLY if it is completed without throwing any exception. There is a difference between SoftAssert and Hard Assert.
