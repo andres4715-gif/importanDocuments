@@ -28,6 +28,21 @@ Ejemplo:
 git reset src/test/java/com/wizeline/app/AppTest.java
 ```
 
+- Para cambiar el nombre de una rama local
+  Desde la rama que le que se le quiere cambiar el nombre se aplica el sig comando:
+
+```shell
+$ git branch -m new-name
+```
+
+Por otro lado si el nombre de la rama que se quiere cambiar lo vamos a hacer desde
+
+otra rama, se debe aplicar el sig comando:
+
+```shell
+$ git branch -m old-name new-name
+```
+
 - Para tener documentación de algún comando en consola:
 
 ```shell
