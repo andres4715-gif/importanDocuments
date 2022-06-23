@@ -1,10 +1,10 @@
 # Programación Java
 
-- En esta pagina se puede encontrar mucha información basica necesaria.
+En esta [pagina](http://puntocomnoesunlenguaje.blogspot.com/p/ejercicios.html) se puede encontrar mucha información basica necesaria.
 
 PROGRAMACIÓN JAVA: EJERCICIOS RESUELTOS
 
-Ejercicios Básicos iniciales para principiantes
+_Ejercicios Básicos iniciales para principiantes_
 
 1. Ejercicio sobre identificadores: indica qué identificadores Java son válidos.
 
