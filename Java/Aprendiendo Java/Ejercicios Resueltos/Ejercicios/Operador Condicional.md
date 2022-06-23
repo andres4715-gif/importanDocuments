@@ -60,3 +60,32 @@ output:
 
 El numero es par: true
 ```
+
+## Otro ejemplo puede ser utilizando el operador condicional como un if
+
+- Esto se logra de la siguiente forma:
+
+```java
+package ejerciciosJava;
+
+public class OperadorCondicional3 {
+    public static void main(String[] args) {
+
+        if(checkingTrue()) {
+            System.out.println("Valor entero: " + checkingTrue());
+        } else {
+            System.out.println("Valor entero: " + checkingTrue());
+        }
+    }
+
+    public static boolean checkingTrue() {
+        int A = 11;
+        boolean b = A % 2 == 0 ? true : false;
+        return b;
+    }
+}
+
+output:
+
+Valor entero: false
+```
