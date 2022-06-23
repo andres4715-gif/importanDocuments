@@ -1,4 +1,7 @@
-Ejercicio sobre literales Java
+# Ejercicio sobre literales Java
+
+[Here](http://puntocomnoesunlenguaje.blogspot.com/2018/09/ejercicio-sobre-literales-java.html) para mas información
+
 Indica cuáles de los siguientes literales son válidos en Java. Si el literal es válido indica además de qué tipo es (int, double, long, etc) y el sistema de numeración en el que está escrito (decimal, binario, octal, hexadecimal). Si el literal no es válido explica porqué no lo es.
 
 1.  0.5
