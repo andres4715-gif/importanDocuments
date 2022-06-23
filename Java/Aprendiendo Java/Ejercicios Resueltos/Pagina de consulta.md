@@ -44,7 +44,7 @@ _Ejercicios Básicos iniciales para principiantes_
 
 ---
 
-Ejercicios Básicos con Estructura Secuencial
+_Ejercicios Básicos con Estructura Secuencial_
 
 1. Programa Java que lea dos números enteros por teclado y los muestre por pantalla.
 
