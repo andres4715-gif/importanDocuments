@@ -33,8 +33,30 @@ public class OperadorCondicional {
     }
 }
 
-```
-
-## output
+output:
 
 10 Es entero
+```
+
+---
+
+## Otro ejemplo puede ser utilizando el operador condicional como un if
+
+- Esto se logra de la siguiente forma:
+
+```java
+package ejerciciosJava;
+
+public class OperadorCondicional2 {
+    public static void main(String[] args) {
+
+        int A = 10;
+        boolean b = A % 2 == 0 ? true : false;
+        System.out.println("El numero es par: " + b);
+    }
+}
+
+output:
+
+El numero es par: true
+```
