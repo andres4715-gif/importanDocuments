@@ -80,7 +80,7 @@ Ejercicios Básicos con Estructura Secuencial
 
 ---
 
-Ejercicios Básicos con Estructura Condicional
+_Ejercicios Básicos con Estructura Condicional_
 
 1. Programa Java que lea un número entero y calcule si es par o impar.
 
@@ -124,7 +124,7 @@ Ejercicios Básicos con Estructura Condicional
 
 ---
 
-Ejercicios Básicos con Estructura Iterativa o Repetitiva
+_Ejercicios Básicos con Estructura Iterativa o Repetitiva_
 
 1. Programa Java que muestre los números del 1 al 100 utilizando la instrucción while
 2. Programa Java que muestre los números del 1 al 100 utilizando la instrucción do..while
