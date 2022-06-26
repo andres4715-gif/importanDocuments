@@ -1,5 +1,7 @@
 # _Trabajando con Hashset_
 
+HashSet contiene un conjunto de objetos, pero de una manera que le permite determinar fácil y rápidamente si un objeto ya está en el conjunto o no. Lo hace administrando internamente una matriz y almacenando el objeto utilizando un índice que se calcula a partir del código hash del objeto.
+
 Ejercicio:
 
 Escribe la funcion:
