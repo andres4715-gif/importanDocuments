@@ -2,7 +2,7 @@
 
 HashSet contiene un conjunto de objetos, pero de una manera que le permite determinar fácil y rápidamente si un objeto ya está en el conjunto o no. Lo hace administrando internamente una matriz y almacenando el objeto utilizando un índice que se calcula a partir del código hash del objeto.
 
-Una de las funciones principales de hashset es organizar los datos como ejemplo se puede tomar datos tipo String o Integer de la siguiente forma:
+Una de las funciones principales de hashset es organizar los datos como ejemplo se puede tomar datos tipo String o Integer y retirar los datos duplicados, esto se hace de la siguiente forma:
 
 Ejemplo ordenando un array de strings:
 
@@ -54,7 +54,7 @@ Output:
 [1, 3, 7, 87]
 ```
 
-Otra de las funciones de hashMap es fuera de organizar los arrays segun su orden natural es remover los duplicado:
+Otra de las funciones de hashSet es fuera de organizar los arrays segun su orden natural es remover los duplicado:
 
 Ejemplo:
 
@@ -82,6 +82,8 @@ public class hashsetEjercicio1 {
 Output:
 [1, 3, 87]
 ```
+
+---
 
 Ejercicio:
 
