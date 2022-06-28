@@ -15,7 +15,7 @@ public class hashsetEjercicio1 {
     public static void main(String[] args) {
 
         // create a hashset
-        HashSet hs = new HashSet();
+        HashSet<Integer> hs = new HashSet<Integer>();
         hs.add("B");
         hs.add("A");
         hs.add("D");
@@ -66,7 +66,7 @@ public class hashsetEjercicio1 {
     public static void main(String[] args) {
 
         // create a hashset
-        HashSet hs = new HashSet();
+        HashSet<Integer> hs = new HashSet<Integer>();
         hs.add(3);
         hs.add(3);
         hs.add(87);
