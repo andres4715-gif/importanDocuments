@@ -1,4 +1,4 @@
-# Extends, static y su con ejemplo real:
+# Extends, static y su uso con ejemplo real:
 
 Vamos a mirar como es el tema del uso del extends y la forma correcta del static.
 
