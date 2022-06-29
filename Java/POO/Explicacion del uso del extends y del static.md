@@ -92,6 +92,90 @@ De esta forma es posible ver los metodos de la clase que se quiere trabajar en e
 
 ---
 
-# Tambien se puede trabajar creando un intancia (Objeto) de la clase
+# Tambien se puede trabajar creando un instancia (Objeto) de la clase
 
 Para hacer esto, lo vamos a trabajar de la siguiente forma:
+
+1. Los metodos de la clase a heredar no tienen que se estaticos.
+
+```java
+public class Data {
+
+    public void sumaAndmedia(int[] A) {
+        double sumaPos = 0;
+        double sumaNeg = 0;
+        int pos = 0;
+        int neg = 0;
+
+        for (int i = 0; i < A.length; i++) {
+            if (A[i] >= 0) {
+                sumaPos += A[i];
+                pos++;
+            } else {
+                sumaNeg += A[i];
+                neg++;
+            }
+        }
+    }
+}
+```
+
+2. Es necesario crear un objeto de la clase y no es necesaro extender de la clase ya que los metodos no son staticos.
+
+```java
+public class Ejercicio1 {
+
+    public static void main(String[] args) {
+        Data hs = new Data();
+        hs.sumaAndmedia(new int[]{1, 2, 3, 4, 5, -1, -2, -3, -4, -5});
+    }
+}
+```
+
+---
+
+# Tambien se puede trabajar sin necesidad de crear un objeto o extendiendo de la clase:
+
+Esto se logra simplemente con un metodo statico en la clase donde esta el metodo con el cual vamos a trabajar
+
+1. Se agrega la palabra estatic en el metodo que se quiere ver en la otra clase:
+
+```java
+public class Data {
+
+    public static void sumaAndmedia(int[] A) {
+        double sumaPos = 0;
+        double sumaNeg = 0;
+        int pos = 0;
+        int neg = 0;
+
+        for (int i = 0; i < A.length; i++) {
+            if (A[i] >= 0) {
+                sumaPos += A[i];
+                pos++;
+            } else {
+                sumaNeg += A[i];
+                neg++;
+            }
+        }
+    }
+```
+
+2. En la clase donde heredamos se agrega este metodo statico en los imports:
+
+```java
+import static ejerciciosJava.practicando.arrays.Data.sumaAndmedia;
+```
+
+3. Se trabaja con el metodo deseado sin necesidad de crear objetos o extender la clase:
+
+```java
+import static ejerciciosJava.practicando.arrays.Data.sumaAndmedia;
+
+public class Ejercicio1 {
+
+    public static void main(String[] args) {
+        sumaAndmedia(new int[]{1, 2, 3, 4, 5, -1, -2, -3, -4, -5});
+    }
+}
+```
