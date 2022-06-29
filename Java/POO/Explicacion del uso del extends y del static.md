@@ -26,7 +26,7 @@ public class Data {
 }
 ```
 
-Data la clase main:
+Dada la clase main:
 
 ```java
 public class Ejercicio1 extends Data {
