@@ -22,14 +22,6 @@ public class Data {
                 neg++;
             }
         }
-
-        System.out.println("Positivos son: " + sumaPos);
-        System.out.println("Negativos son: " + sumaNeg);
-        System.out.println("Cantidad positivos son: " + pos);
-        System.out.println("Cantidad negativos son: " + neg);
-
-        System.out.println("Media positivos es: " + (sumaPos / pos));
-        System.out.println("media negativos es: " + (sumaNeg / neg));
     }
 }
 ```
@@ -38,11 +30,6 @@ Data la clase main:
 
 ```java
 public class Ejercicio1 extends Data {
-
-    /*
-     * Programa que lea por teclado 10 números enteros y los guarde en un array.
-     * A continuación calcula y muestra la media de los valores positivos y la  de los valores negativos.
-     */
 
     public static void main(String[] args) {
         sumaAndmedia(new int[]{1, 2, 3, 4, 5, -1, -2, -3, -4, -5});
