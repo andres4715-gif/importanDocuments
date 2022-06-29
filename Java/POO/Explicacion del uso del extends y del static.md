@@ -44,6 +44,8 @@ Explicación del uso del extends:
 1. La clase que vamos a heredar tiene que ser statica
 
 ```java
+
+public class Data {
     public static void sumaAndmedia(int[] A) {
         double sumaPos = 0;
         double sumaNeg = 0;
@@ -60,6 +62,7 @@ Explicación del uso del extends:
             }
         }
     }
+}
 
 ```
 
