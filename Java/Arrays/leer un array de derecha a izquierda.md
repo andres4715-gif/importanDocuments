@@ -1,6 +1,6 @@
 # **Leer un array de derecha a izquierda con un ejemplo:**
 
-\_\_
+---
 
 ```java
 public class Ejercicio6 {
