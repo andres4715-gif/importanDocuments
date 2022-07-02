@@ -2,6 +2,27 @@
 
 Para hacer esto se puede hacer de varias formas:
 
+Example 0;
+
+Cuando se tiene un array y es necesario convertir ese array en una lista de puede hacer de la siguiente forma:
+
+```java
+public class listas {
+
+    public static void main(String[] args) {
+        Integer[] hola = {34, 54, 56, 67};
+
+        List<Integer> myIntegerList = Arrays.asList(hola);
+        System.out.println("El tipo de dato es: " + myIntegerList.getClass().getSimpleName());
+        System.out.println(myIntegerList);
+    }
+}
+
+Output:
+El tipo de dato es: ArrayList
+[34, 54, 56, 67]
+```
+
 Example 1:
 
 ```java
