@@ -57,3 +57,106 @@ $ java -jar jenkins-cli.jar -s http://localhost:8080/ build FirestoneAPITesting 
 - Como se puede ver la ejecución es la numero 7 y debe ser la misma que se ejecuto en el dashboard en la pagina inicial de jenkins
 
 ![Image text](https://github.com/andres4715-gif/importanDocuments/blob/master/imagenes/imagen%204.png)
+
+# Jenkins CLI JAR
+
+- Esto aplica para manejar Jenkins desde una terminal,
+
+En la version de escritorio de jenkins de manera local vamos a la pagina:
+
+```url
+http://localhost:8080/cli/
+```
+
+Luego se descarga el complemento destinado para esta acción:
+
+```url
+http://localhost:8080/jnlpJars/jenkins-cli.jar
+```
+
+Cuando se tiene el .jar descargado en la maquina de forma local, lo que se debe hacer es en la terminal agregar el link que nos propone jenkins en la misma pagina.
+
+- Ejemplo:
+
+```shell
+$ cd Downloads
+$ cd java -jar jenkins-cli.jar -s http://localhost:8080/ -webSocket help
+```
+
+El resultado por consola es algo parecido a esto:
+
+```shell
+cd Downloads
+❯ java -jar jenkins-cli.jar -s http://localhost:8080/ -webSocket help
+  add-job-to-view
+    Adds jobs to view.
+  build
+    Builds a job, and optionally waits until its completion.
+  cancel-quiet-down
+    Cancel the effect of the "quiet-down" command.
+  clear-queue
+    Clears the build queue.
+  connect-node
+    Reconnect to a node(s)
+  console
+    Retrieves console output of a build.
+  copy-job
+    Copies a job.
+  create-credentials-by-xml
+    Create Credential by XML
+  create-credentials-domain-by-xml
+    Create Credentials Domain by XML
+  create-job
+    Creates a new job by reading stdin as a configuration XML file.
+  create-node
+    Creates a new node by reading stdin as a XML configuration.
+  create-view
+    Creates a new view by reading stdin as a XML configuration.
+  declarative-linter
+    Validate a Jenkinsfile containing a Declarative Pipeline
+  delete-builds
+    Deletes build record(s).
+  delete-credentials
+    Delete a Credential
+  delete-credentials-domain
+    Delete a Credentials Domain
+  delete-job
+    Deletes job(s).
+  delete-node
+    Deletes node(s)
+  delete-view
+    Deletes view(s).
+
+```
+
+Desde esta parte ya es posible realizar una ejecución del proyecto desde la terminal usando el archivo .jar
+
+En la misma pagina es posible tener el comando de ejecución por la terminal para el proyecto actual.
+
+Este seria le comando.
+
+```shell
+$ java -jar jenkins-cli.jar -s http://localhost:8080/ build <<Nombre del proyecto>>
+```
+
+El comando especifico queda de la siguiente forma:
+
+```shell
+$ java -jar jenkins-cli.jar -s http://localhost:8080/ build fsbp_api_automation_rest_assured
+```
+
+**Nota**: en la consola no se debe ver ningún output.
+
+---
+
+En esta parte se realiza la ejecución del proyecto desde la consola y es posible ver la ejecución desde jenkins.
+
+```text
+Success
+TestNG Reports Processing: START
+Looking for TestNG results report in workspace using pattern: /Users/andresrios/Documents/AndresRios/fsbp/fsbp_api_automation_rest_assured/testng-results.xml
+Did not find any matching files.
+[Slack Notifications] found #78 as previous completed, non-aborted build
+[Slack Notifications] will send OnSuccessNotification because build matches and user preferences allow it
+Finished: SUCCESS
+```
