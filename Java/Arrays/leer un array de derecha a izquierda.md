@@ -49,7 +49,8 @@ public class Ejercicio8 {
 -        Imprima las calificaciones en orden inverso
     */
 
-    public static void main(String[] args) {
+   public static void main(String[] args) {
+        ArrayList<Double> myData = new ArrayList<Double>();
         double calificaciones[] = {4.0, 2.0, 3.0, 4.3, 5.7, 5.9, 7.1, 2.8, 6.8, 9.0, 7.8, 8.9, 9.8, 7.7, 8};
         double suma = 0;
         double media = 0;
@@ -61,28 +62,15 @@ public class Ejercicio8 {
         }
 
         for (int i = calificaciones.length -1; i >= 0; i--) {
-            System.out.println(calificaciones[i]);
+            myData.add(calificaciones[i]);
         }
         System.out.println("La media de todos los alumnos es: " + media);
+        System.out.println(myData);
     }
 }
 
 Output:
 
-8.0
-7.7
-9.8
-8.9
-7.8
-9.0
-6.8
-2.8
-7.1
-5.9
-5.7
-4.3
-3.0
-2.0
-4.0
 La media de todos los alumnos es: 6.1866666666666665
+[8.0, 7.7, 9.8, 8.9, 7.8, 9.0, 6.8, 2.8, 7.1, 5.9, 5.7, 4.3, 3.0, 2.0, 4.0]
 ```
