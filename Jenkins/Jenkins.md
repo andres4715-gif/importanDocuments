@@ -2,6 +2,12 @@
 
 ![Image text](https://github.com/andres4715-gif/importanDocuments/blob/master/imagenes/jenkins01-removebg-preview.png)
 
+---
+
+Para validar una buena explicación de como trabajar con jenkins se puede valiar esta [pagina](https://dmunozfer.es/tutorial-jenkins-2-configuracion-pipeline/)
+
+---
+
 Link con el [video](https://www.youtube.com/watch?v=woMAXn4e8NA&t=1093s)
 Page para saber la [Configuración](https://blog.kobiton.com/integrating-appium-tests-into-your-ci/cd-process-using-jenkins) para maven en Jenkins.
 
