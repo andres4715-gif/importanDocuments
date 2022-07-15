@@ -160,3 +160,15 @@ Did not find any matching files.
 [Slack Notifications] will send OnSuccessNotification because build matches and user preferences allow it
 Finished: SUCCESS
 ```
+
+# Como lanzar un proyecto desde otro proyecto:
+
+Como ya se tiene un proyecto corriendo y se requiere lanzar ese proyecto desde uno nuevo lo que se hace es lo siguiente:
+
+1. Se crea el nuevo proyecto
+2. En configuración se selecciona la pestaña de Post-build Actions
+3. En Projects to build se agrega el proyecto a correr desde este
+4. Se selecciona la opción Trigger only if build is stable
+5. Click en Guardar
+6. Se ejecuta el proyecto desde Build Now
+7. Se valida que la ejecución sea generada.
