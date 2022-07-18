@@ -1,6 +1,6 @@
 # _Como hacer una integración entre jenkins local y bitbucket:_
 
-Se puede validar este [video](https://www.youtube.com/watch?v=zpscQ1ONFmk&t=423s) para el paso a paso:
+Se puede validar este [video](https://www.youtube.com/watch?v=zpscQ1ONFmk&t=423s) para el paso a paso o tambien la documentación en la [web](https://medium.com/@jairosolarte/integraci%C3%B3n-continua-ci-2-integrar-jenkins-y-bitbucket-amazone-aws-9a01e81f9120)
 
 Lo primero que hay que hacer es:
 
