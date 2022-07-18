@@ -6,6 +6,8 @@
 
 Para validar una buena explicación de como trabajar con jenkins se puede valiar esta [pagina](https://dmunozfer.es/tutorial-jenkins-2-configuracion-pipeline/)
 
+Otro video en ingles con el setup y con toda la configuración en general se puede consultar este [video tutorial](https://www.youtube.com/watch?v=nCKxl7Q_20I&t=11s)
+
 ---
 
 Link con el [video](https://www.youtube.com/watch?v=woMAXn4e8NA&t=1093s)
