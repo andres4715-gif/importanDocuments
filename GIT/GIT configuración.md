@@ -15,7 +15,7 @@ $ git config --global user.name "Andres Rios"
 2. Comando para hacer la configuración global al inicio de git, como darle el correo:
 
 ```shell
-$ git config --global user.email "andres.rios@gmail.com"
+$ git config --global user.email "andres.rios@zemoga.com"
 ```
 
 NOTA: Ya con este setup se acaban de agregar los datos y despues de agregar el comando de git
