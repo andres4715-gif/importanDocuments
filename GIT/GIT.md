@@ -10,7 +10,7 @@
 
 ---
 
-- Agregar Tu Nombre y Correo Electrónico
+## Agregar Tu Nombre y Correo Electrónico
 
 ```shell
 git config --global user.name "Mi Nombre"
@@ -19,7 +19,7 @@ git config --global user.email "micorreo@ejemplo.com"
 
 ---
 
-- git reset
+## git reset
 
 Para deshacer un git add antes de un commit, ejecuta
 
@@ -58,8 +58,9 @@ $ git reset d1bb0e493fc442f8228311c7f16f1cfc9147b6e7 --soft
 
 ---
 
-- Para cambiar el nombre de una rama local
-  Desde la rama que le que se le quiere cambiar el nombre se aplica el sig comando:
+## Para cambiar el nombre de una rama local
+
+Desde la rama que le que se le quiere cambiar el nombre se aplica el sig comando:
 
 ```shell
 $ git branch -m new-name
@@ -75,7 +76,7 @@ $ git branch -m old-name new-name
 
 ---
 
-- Para tener documentación de algún comando en consola:
+## Para tener documentación de algún comando en consola:
 
 ```shell
 Ejemplo:
@@ -95,7 +96,7 @@ $ git reflog
 
 ---
 
-- Cambiar el nombre al ultimo commit realizado por algún error en la escritura
+## Cambiar el nombre al ultimo commit realizado por algún error en la escritura
 
 ```shell
 
@@ -120,7 +121,7 @@ Date:   Fri Mar 18 09:15:12 2022 -0500
 
 ---
 
-- Para eliminar un archivo cuando necesitamos que quede el registro de la eliminación
+## Para eliminar un archivo cuando necesitamos que quede el registro de la eliminación
 
 ```shell
 $ git rm <"Nombre del archivo">
@@ -144,13 +145,13 @@ $ git reset --hard cadb9d45c9643a4cb157357f9a30f9df92750f1d
 
 ---
 
-- Para ver el historial de un solo archivo
+## Para ver el historial de un solo archivo
 
 ```shell
 git log <Nombre del archivo>
 ```
 
-- Para ver todo el historial con graficos
+## Para ver todo el historial con graficos
 
 ![Image text](https://github.com/andres4715-gif/importanDocuments/blob/master/imagenes/Screen%20Shot%202022-03-18%20at%2011.11.43%20AM.png)
 
@@ -162,7 +163,7 @@ $ git log --oneline --decorate --all --graph
 
 ---
 
-- Para borrar una rama que de forma local:
+## Para borrar una rama que de forma local:
 
 ```shell
 - El comando para borrar una rama debemos estar una rama diferente
@@ -173,7 +174,7 @@ $ git branch -d <"Nombre de la rama a eliminar">
 
 ---
 
-- GIT STASH
+## GIT STASH
 
 En este [link](https://www.freecodecamp.org/espanol/news/git-stash-explicado/) Esta toda la documentación sobre los Stash
 
@@ -201,7 +202,7 @@ $ git stash drop NOMBRE-DEL-STASH
 $ git stash clear
 ```
 
-- # it rebase -> git squash
+# it rebase -> git squash
 
 ```shell
 Desde la rama que estoy trabajando, esto es para descargar la ultima
