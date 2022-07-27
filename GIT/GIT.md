@@ -56,6 +56,12 @@ Ejemplo:
 $ git reset d1bb0e493fc442f8228311c7f16f1cfc9147b6e7 --soft
 ```
 
+¡Pero todavía falta algo!
+
+**git reset HEAD:**
+
+Este es el comando para sacar archivos del área de staging. No para borrarlos ni nada de eso, solo para que los últimos cambios de estos archivos no se envíen al último commit, a menos que cambiemos de opinión y los incluyamos de nuevo en staging con git add, por supuesto.
+
 ---
 
 ## GIT CHECKOUT:
