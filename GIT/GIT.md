@@ -70,7 +70,7 @@ Este sirve para ver como era un archivo en determinado momento de la historia
 $ git checkout d1bb0e493fc442f8228311c7f16f1cfc9147b6e7 <Nombre del archivo>
 ```
 
-_NOTA:_ Esto no cambia nada, solo es para ver como en ese momento del tiempo estaba el archivo
+**NOTA:** Esto no cambia nada, solo es para ver como en ese momento del tiempo estaba el archivo
 
 - Si se digita el comando:
 
