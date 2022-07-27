@@ -58,6 +58,32 @@ $ git reset d1bb0e493fc442f8228311c7f16f1cfc9147b6e7 --soft
 
 ---
 
+## GIT CHECKOUT:
+
+Este sirve para ver como era un archivo en determinado momento de la historia
+
+1. Ver con el comnado git log cual es el commit que se quiere ver.
+2. Tomar el identificador del commit.
+3. En la consola agregar el comando
+
+```shell
+$ git checkout d1bb0e493fc442f8228311c7f16f1cfc9147b6e7 <Nombre del archivo>
+```
+
+_NOTA:_ Esto no cambia nada, solo es para ver como en ese momento del tiempo estaba el archivo
+
+- Si se digita el comando:
+
+```shell
+ git checkout master <Nombre del archivo>
+```
+
+Esto nos lleva a la version actual del archivo sin ningún tipo de cambio.
+
+Tener cuidado con esta por que esta es la forma de modificar un archivo desde el pasado y volverlo a enviar con alguna modificación.
+
+---
+
 ## Para cambiar el nombre de una rama local
 
 Desde la rama que le que se le quiere cambiar el nombre se aplica el sig comando:
