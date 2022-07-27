@@ -19,7 +19,9 @@ git config --global user.email "micorreo@ejemplo.com"
 
 ---
 
-- Para deshacer un git add antes de un commit, ejecuta
+- git reset
+
+Para deshacer un git add antes de un commit, ejecuta
 
 ```shell
 $ git reset <archivo>
@@ -28,6 +30,30 @@ $ git reset para deshacer todos los cambios.
 Ejemplo:
 
 git reset src/test/java/com/wizeline/app/AppTest.java
+```
+
+Tambien es posible utilizar el comando GIT RESET cuando queremos volver en el tiempo:
+
+- Se puede presentar en situaciones donde algún commit daño algo en el codigo y la unica forma de arreglar es volviendo al pasado.
+
+Hay dos formas de hacerlo (hard and soft)
+
+- Hard: Ese simplemente borra todo pero es el que mas comunmente se utiliza.
+  Esta tambien borra el log, y cuando se ingresa el comando git log los cambios se borraron.
+
+Ejemplo:
+
+```shell
+$ git reset d1bb0e493fc442f8228311c7f16f1cfc9147b6e7 --hard
+```
+
+- Soft: Con este se regresa a la version anterior pero lo que tenemos en stagin se queda
+  -- Es decir, si le diste git add, eso queda disponible para montarlo en la version que va a quedar despues del comando.
+
+Ejemplo:
+
+```shell
+$ git reset d1bb0e493fc442f8228311c7f16f1cfc9147b6e7 --soft
 ```
 
 ---
